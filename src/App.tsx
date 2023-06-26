@@ -23,7 +23,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Banner />
+      {/* <Banner />
       <Sections />
       <AboutUs />
       <WhyUs />
@@ -36,7 +36,7 @@ function App() {
       <TeamBanner />
       <Contact />
       <Location />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
