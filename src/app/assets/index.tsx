@@ -7,6 +7,9 @@ import medicalAdvices from "./icons/medical-advices.svg";
 import availability from "./icons/availability.svg";
 import healthEducation from "./icons/health-education.svg";
 import aboutUs from "./images/about.jpg";
+import whyUs from "./images/choose.jpg";
+import medecine from "./icons/medecine.svg";
+import check from "./icons/check.svg";
 
 export {
     logo,
@@ -17,5 +20,8 @@ export {
     availability,
     healthEducation,
     whiteLogo,
-    aboutUs
+    aboutUs,
+    whyUs,
+    medecine,
+    check
 };
