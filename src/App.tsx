@@ -23,8 +23,8 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* <Banner />
-      <Sections />
+      <Banner />
+      {/*<Sections />
       <AboutUs />
       <WhyUs />
       <GetApp />

@@ -6,6 +6,11 @@ module.exports = {
     colors: {
       GRAY: "#C4C4C4",
       BLACK: "#000000",  
+      WHITE: "#FFFFFF",
+      TRANSPARENT: "transparent",
+      BLUE: "#0B65A7",
+      TEXT_GREY:"#1E1E1E",
+      ORANGE:"#F27219",
     },
     screens: {
       sm: "640px",
