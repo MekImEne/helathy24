@@ -3,17 +3,11 @@ import React, { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { calling, logo } from '../assets'
 import { Link } from 'react-scroll';
+import { navbarItems } from '../data/header';
 
 export default function Navbar() {
 
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-    let navbarItems = [
-        { id: "home", label: "Home" },
-        { id: "about-us", label: "About us" },
-        { id: "our-services", label: "Our services" },
-        { id: "contact-us", label: "Contact us" },
-    ];
 
     return (
         <header className="bg-white">
