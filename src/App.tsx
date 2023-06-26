@@ -13,7 +13,6 @@ import {
   Navbar,
   Offers,
   SearchHospital,
-  Sections,
   TeamBanner,
   WhyUs,
 
@@ -24,9 +23,8 @@ function App() {
     <div>
       <Navbar />
       <Banner />
-      {/*<Sections />
       <AboutUs />
-      <WhyUs />
+      {/*<WhyUs />
       <GetApp />
       <FindDoctor />
       <Offers />

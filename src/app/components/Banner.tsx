@@ -3,7 +3,7 @@ import Features from './Features';
 
 export default function Banner() {
     return (
-        <div>
+        <div id='home'>
             <div className="relative flex h-screen content-center items-center pt-16 pb-32 -z-10">
                 <div className="absolute top-0 h-[600px] w-full bg-[url('/src/app/assets/images/main.jpg')] bg-cover bg-center" />
                 <div className="absolute top-0 h-[600px] w-full bg-gradient-to-r from-WHITE via-WHITE via-25% to-TRANSPARENT bg-cover bg-center" />

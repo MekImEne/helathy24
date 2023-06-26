@@ -1,6 +1,5 @@
 export { default as Navbar } from './Navbar';
 export { default as Banner } from './Banner';
-export { default as Sections } from './Sections';
 export { default as AboutUs } from './AboutUs';
 export { default as WhyUs } from './WhyUs';
 export { default as GetApp } from './GetApp';
