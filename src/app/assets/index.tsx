@@ -24,6 +24,9 @@ import avatar from "./images/avatar.jpg";
 import avatarf from "./images/avatarf.png";
 import next from "./icons/right-arrow.svg";
 import previous from "./icons/left-arrow.svg";
+import chat from "./icons/chat.svg";
+import faq from "./images/faq.jpg";
+import doctor from "./icons/doctor.svg";
 
 
 export {
@@ -52,5 +55,8 @@ export {
     avatar,
     avatarf,
     next,
-    previous
+    previous,
+    chat,
+    faq,
+    doctor
 };

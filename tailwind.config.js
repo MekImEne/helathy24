@@ -14,7 +14,9 @@ module.exports = {
       BLUE4:"#65A8FB",
       TEXT_GREY:"#1E1E1E",
       ORANGE: "#F27219",
-      GRAY_BACKGROUND:"#F4F7FA",
+      GRAY_BACKGROUND: "#F4F7FA",
+      DARK_GRAY: "#3A3B3B",
+      BORDER_GRAY:"#AFAFA",
     },
     screens: {
       sm: "640px",

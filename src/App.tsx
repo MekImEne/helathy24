@@ -30,8 +30,8 @@ function App() {
       <Offers />
       <SearchHospital />
       <Feedbacks />
-      {/*<FAQ />
-      <TeamBanner />
+      <FAQ />
+      {/*<TeamBanner />
       <Contact />
       <Location />
       <Footer /> */}
