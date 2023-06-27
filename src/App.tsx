@@ -28,8 +28,8 @@ function App() {
       <GetApp />
       <FindDoctor />
       <Offers />
-      {/* <SearchHospital />
-      <Feedbacks />
+      <SearchHospital />
+      {/*<Feedbacks />
       <FAQ />
       <TeamBanner />
       <Contact />

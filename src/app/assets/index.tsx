@@ -16,6 +16,9 @@ import googlePlay from "./images/google-play.svg";
 import rating from "./images/rating.svg";
 import searchDoctor from "./images/find-doctor.jpg";
 import frame from "./icons/frame.svg";
+import hospital from "./images/hospital.jpg";
+import careness from "./icons/careness.svg";
+import ratingy from "./images/ratingy.svg";
 
 
 export {
@@ -36,5 +39,8 @@ export {
     googlePlay,
     rating,
     searchDoctor,
-    frame
+    frame,
+    hospital,
+    careness,
+    ratingy
 };

@@ -2,6 +2,10 @@ import React from 'react';
 import Features from './Features';
 
 export default function Banner() {
+    const handleStart = () => {
+        window.location.href = '/get-started'
+    };
+
     return (
         <div id='home'>
             <div className="relative flex h-screen content-center items-center pt-16 pb-32 -z-10">
@@ -18,7 +22,11 @@ export default function Banner() {
                     </div>
                     <div className="mt-20 max-w-2xl lg:mx-0 lg:max-w-none">
                         <div className="grid grid-cols-1 gap-x-8 gap-y-6 font-normal leading-7 sm:grid-cols-2 md:flex lg:gap-x-10">
-                            <button className="rounded-none bg-ORANGE hover:bg-ORANGE-700 text-WHITE py-2 px-8">Get Started</button>
+                            <button
+                                onClick={handleStart}
+                                className="rounded-none bg-ORANGE hover:bg-ORANGE-700 text-WHITE py-2 px-8">
+                                Get Started
+                            </button>
                         </div>
                     </div>
                 </div>

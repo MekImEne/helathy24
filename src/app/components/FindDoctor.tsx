@@ -2,9 +2,11 @@ import React from 'react'
 import { searchDoctor } from '../assets'
 
 export default function FindDoctor() {
+
     const handleStart = () => {
         window.location.href = '/get-started'
-    }
+    };
+
     return (
         <div id='find-doctor' className="my-20 flex flex-wrap items-center">
             <div className="mx-auto -mt-8 w-full px-4 md:w-5/12">
