@@ -3,7 +3,7 @@ import { doctors } from '../assets'
 
 export default function TeamBanner() {
     return (
-        <div id="team-banner" className='w-full bg-LIGHT_GRAY py-24'>
+        <div id="team-banner" className='w-full bg-LIGHT_GRAY pt-24'>
             <div className=''>
                 <div className='py-4 text-center'>
                     <p className='text-4xl mx-96 font-semibold text-BLACK'>

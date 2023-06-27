@@ -28,6 +28,9 @@ import chat from "./icons/chat.svg";
 import faq from "./images/faq.jpg";
 import doctor from "./icons/doctor.svg";
 import doctors from "./images/doctors.jpg";
+import phone from "./icons/phone.svg";
+import email from "./icons/email.svg";
+import location from "./icons/location.svg";
 
 
 export {
@@ -60,5 +63,8 @@ export {
     chat,
     faq,
     doctor,
-    doctors
+    doctors,
+    phone,
+    email,
+    location
 };

@@ -32,8 +32,8 @@ function App() {
       <Feedbacks />
       <FAQ />
       <TeamBanner />
-      {/*<Contact />
-      <Location />
+      <Contact />
+      {/*<Location />
       <Footer /> */}
     </div>
   );
