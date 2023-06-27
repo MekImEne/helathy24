@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { goTop } from '../assets';
+import { goTop } from '../../assets';
 
 const classNames = (...classes: any) => {
     return classes.filter(Boolean).join(' ')

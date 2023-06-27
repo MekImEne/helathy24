@@ -1,7 +1,7 @@
 import React from 'react'
-import { next, previous } from '../assets'
+import { next, previous } from '../../assets'
 import Slider from "react-slick";
-import { feedbacks } from '../data/feedbacks';
+import { feedbacks } from '../../data/feedbacks';
 
 function NextArrow(props: any) {
     const { className, style, onClick } = props;
@@ -42,13 +42,13 @@ export default function Carousel() {
     };
 
     return (
-        <div className='mx-20 my-0'>
+        <div className='mx-7 sm:mx-20 my-0'>
             <Slider {...settings}>
                 {
                     feedbacks.map((item, index) => (
                         <div key={item.id}>
-                            <figcaption className='mt-10'>
-                                <p className="text-TEXT_GREY font-normal text-base text-center mx-16 my-10">
+                            <figcaption className='sm:mt-10'>
+                                <p className="text-TEXT_GREY font-normal text-sm sm:text-base text-center mx:8 sm:mx-16 my-10">
                                     {item.content}
                                 </p>
 

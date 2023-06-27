@@ -1,6 +1,6 @@
 import React from 'react'
 import { aboutUs } from '../../assets'
-import LogoContainer from '../LogoContainer'
+import LogoContainer from './LogoContainer'
 
 export default function RightSideImage() {
     return (

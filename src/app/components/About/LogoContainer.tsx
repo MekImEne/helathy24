@@ -1,5 +1,5 @@
 import React from 'react'
-import { whiteLogo } from '../assets'
+import { whiteLogo } from '../../assets'
 
 export default function LogoContainer() {
     return (

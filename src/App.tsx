@@ -17,7 +17,7 @@ import {
   WhyUs,
 
 } from './app/Sections';
-import ScrollToTop from './app/components/ScrollToTop';
+import ScrollToTop from './app/components/UI/ScrollToTop';
 
 function App() {
   return (
