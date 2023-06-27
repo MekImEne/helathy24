@@ -15,6 +15,7 @@ import appStore from "./images/app-store.svg";
 import googlePlay from "./images/google-play.svg";
 import rating from "./images/rating.svg";
 import searchDoctor from "./images/find-doctor.jpg";
+import frame from "./icons/frame.svg";
 
 
 export {
@@ -34,5 +35,6 @@ export {
     appStore,
     googlePlay,
     rating,
-    searchDoctor
+    searchDoctor,
+    frame
 };

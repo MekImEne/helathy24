@@ -13,7 +13,8 @@ module.exports = {
       BLUE3:"#1678F2",
       BLUE4:"#65A8FB",
       TEXT_GREY:"#1E1E1E",
-      ORANGE:"#F27219",
+      ORANGE: "#F27219",
+      GRAY_BACKGROUND:"#F4F7FA",
     },
     screens: {
       sm: "640px",
