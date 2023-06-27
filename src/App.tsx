@@ -33,8 +33,8 @@ function App() {
       <FAQ />
       <TeamBanner />
       <Contact />
-      {/*<Location />
-      <Footer /> */}
+      <Location />
+      {/* <Footer /> */}
     </div>
   );
 }

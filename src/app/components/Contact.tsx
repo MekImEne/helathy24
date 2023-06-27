@@ -5,7 +5,7 @@ import ContactItem from './ContactItem'
 
 export default function Contact() {
     return (
-        <div id='contact-us' className="my-20 pb-10 px-20 flex-wrap items-center w-full flex flex-row space-x-20 mb-10">
+        <div id='contact-us' className="mt-20 pb-10 px-20 flex-wrap items-center w-full flex flex-row space-x-20">
             <div className='md:w-6/12'>
                 <div className='py-4 flex flex-col justify-start'>
 
