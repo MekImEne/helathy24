@@ -1,7 +1,13 @@
 import React from 'react'
-import Input from './Input'
+import Input from '../Input'
+import Button from '../UI/Button'
 
 export default function FormContact() {
+    const handleSubmit = () => {
+        console.log('====================================');
+        console.log("Contacted");
+        console.log('====================================');
+    }
     return (
         <form className='py-4'>
             <Input
@@ -25,13 +31,13 @@ export default function FormContact() {
                 multiline
             />
 
-            <button
-                className='max-md:w-full my-4 px-10 py-3 rounded-none bg-ORANGE text-WHITE font-light'
+            <Button
+                onClick={handleSubmit}
+                text="Submit"
+                bgColor='ORANGE'
+                textColor='WHITE'
                 type="submit"
-            >
-                Submit
-            </button>
-
+            />
         </form>
     )
 }

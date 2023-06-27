@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Button({
-    bgColor, onClick, textColor, text, outlined, rounded, borderColor, textHovered, bgHovered
+    bgColor, onClick, textColor, text, outlined, rounded, borderColor, textHovered, bgHovered, type
 }: {
     bgColor: string,
     textColor: string,
@@ -11,11 +11,13 @@ export default function Button({
     borderColor?: string,
     textHovered?: string,
     bgHovered?: string,
+    type?: "button" | "submit" | "reset" | undefined,
     onClick: React.MouseEventHandler<HTMLButtonElement> | undefined
 }) {
     return (
         <button
             onClick={onClick}
+            type={type}
             className={`             
                 bg-${bgColor} 
                 py-2 px-8

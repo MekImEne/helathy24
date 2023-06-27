@@ -33,7 +33,7 @@ export default function ScrollToTop() {
 
 
     return (
-        <div className="fixed bottom-7 right-20">
+        <div className="fixed bottom-7 right-28 sm:right-20">
             <button
                 type="button"
                 onClick={scrollToTop}
