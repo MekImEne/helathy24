@@ -34,7 +34,7 @@ function App() {
       <TeamBanner />
       <Contact />
       <Location />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

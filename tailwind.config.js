@@ -17,7 +17,9 @@ module.exports = {
       GRAY_BACKGROUND: "#F4F7FA",
       DARK_GRAY: "#3A3B3B",
       BORDER_GRAY: "#AFAFA",
-      LIGHT_GRAY:"#EBEBEB"
+      LIGHT_GRAY:"#EBEBEB",
+      COPYRIGHT_GRAY:"#685879",
+      FOOTER_GRAY:"#190134",
     },
     screens: {
       sm: "640px",
