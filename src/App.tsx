@@ -29,8 +29,8 @@ function App() {
       <FindDoctor />
       <Offers />
       <SearchHospital />
-      {/*<Feedbacks />
-      <FAQ />
+      <Feedbacks />
+      {/*<FAQ />
       <TeamBanner />
       <Contact />
       <Location />

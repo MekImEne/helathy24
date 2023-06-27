@@ -19,6 +19,11 @@ import frame from "./icons/frame.svg";
 import hospital from "./images/hospital.jpg";
 import careness from "./icons/careness.svg";
 import ratingy from "./images/ratingy.svg";
+import doctorsBg from "./images/doctors-bg.jpg";
+import avatar from "./images/avatar.jpg";
+import avatarf from "./images/avatarf.png";
+import next from "./icons/right-arrow.svg";
+import previous from "./icons/left-arrow.svg";
 
 
 export {
@@ -42,5 +47,10 @@ export {
     frame,
     hospital,
     careness,
-    ratingy
+    ratingy,
+    doctorsBg,
+    avatar,
+    avatarf,
+    next,
+    previous
 };
