@@ -1,11 +1,10 @@
 import React from 'react'
-import Title from '../components/Title'
-import LogoContainer from '../components/LogoContainer'
-import { aboutUs } from '../assets'
+import Title from '../components/About/Title'
+import RightSideImage from '../components/About/RightSideImage'
 
 export default function AboutUs() {
     return (
-        <div id='about-us' className="my-10 flex flex-wrap items-start">
+        <div id='about-us' className="my-10 mx-5 sm:mx-0 flex flex-wrap items-start">
             <div className="mx-auto -mt-8 w-full px-4 md:w-5/12">
                 <Title text="About" />
                 <p className="mb-8 font-normal text-base text-TEXT_GREY ">
@@ -19,21 +18,8 @@ export default function AboutUs() {
                     It's free to sign up and easy to check your coverage when you register.
                 </p>
             </div>
-            <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
-                <div className="">
-                    <div className="relative">
-                        <img
-                            alt="CardImage"
-                            src={aboutUs}
-                            className="h-full w-full"
-                        />
-                    </div>
-                    <div>
-                        <div className='absolute -mt-10 -mx-24'>
-                            <LogoContainer />
-                        </div>
-                    </div>
-                </div>
+            <div className="mx-auto mt-7 sm:mt-24 lg:mt-0 flex w-full justify-center px-4 md:w-4/12 ">
+                <RightSideImage />
             </div>
         </div>
     )

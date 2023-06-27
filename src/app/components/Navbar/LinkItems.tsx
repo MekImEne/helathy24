@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'
 
 export default function LinkItems({ isMobile }: { isMobile: Boolean }) {
     return (
-        <div>
+        <>
             {
                 navbarItems.map((item, index) =>
                     <a
@@ -19,6 +19,6 @@ export default function LinkItems({ isMobile }: { isMobile: Boolean }) {
                     </a>
                 )
             }
-        </div>
+        </>
     )
 }
