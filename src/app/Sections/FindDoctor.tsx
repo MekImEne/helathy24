@@ -1,5 +1,6 @@
 import React from 'react'
 import { searchDoctor } from '../assets'
+import Button from '../components/UI/Button';
 
 export default function FindDoctor() {
 
@@ -8,7 +9,7 @@ export default function FindDoctor() {
     };
 
     return (
-        <div id='find-doctor' className="my-20 flex flex-wrap items-center">
+        <div id='find-doctor' className="my-20 mx-6 flex flex-wrap items-center">
             <div className="mx-auto -mt-8 w-full px-4 md:w-5/12">
                 <h2 className='mb-6 font-medium text-3xl text-TEXT_GREY'>
                     Find The Best doctor you need
@@ -20,11 +21,17 @@ export default function FindDoctor() {
                     journey protected and connected.
                 </p>
 
-                <button
+                <Button
                     onClick={handleStart}
-                    className='rounded outline outline-1 outline-BLUE3 bg-WHITE hover:bg-BLUE3 text-BLUE2 hover:text-WHITE py-2 px-8'>
-                    Get Started
-                </button>
+                    text="Get Started"
+                    bgColor='WHITE'
+                    textColor='BLUE2'
+                    textHovered='WHITE'
+                    rounded
+                    outlined
+                    borderColor="BLUE3"
+                    bgHovered="BLUE3"
+                />
             </div>
             <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
                 <div className="">
