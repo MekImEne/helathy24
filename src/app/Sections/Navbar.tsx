@@ -10,7 +10,7 @@ export default function Navbar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     return (
-        <header className="bg-white">
+        <header className="bg-WHITE">
             <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 lg:px-8" aria-label="Global">
                 <Logo mobileMenuOpen={mobileMenuOpen} />
 

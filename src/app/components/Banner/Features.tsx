@@ -1,13 +1,12 @@
 import React from 'react';
 import FeatureCard from './FeatureCard';
-import { features } from '../data/features';
+import { features } from '../../data/features';
 
 export default function Features() {
     return (
-        <section className="-mt-32 px-4 pb-20 pt-4 lg:mx-44 ">
+        <section className="-mt-44 sm:-mt-32 px-4 pb-5 sm:pb-20 pt-4 lg:mx-44 ">
             <div className="container mx-auto">
-                <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 h-44 bg-BLUE2 text-WHITE">
-                    {/* TODO : fix in small size screen */}
+                <div className='flex flex-col sm:flex-row space-x-0 min-h-full bg-BLUE2 text-WHITE'>
                     {features.map(({ icon, description }) => (
                         <FeatureCard
                             key={description}
@@ -15,7 +14,6 @@ export default function Features() {
                             description={description}
                         />
                     ))}
-
                 </div>
             </div>
         </section>
