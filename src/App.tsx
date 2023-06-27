@@ -25,8 +25,8 @@ function App() {
       <Banner />
       <AboutUs />
       <WhyUs />
-      {/* <GetApp />
-      <FindDoctor />
+      <GetApp />
+      {/*<FindDoctor />
       <Offers />
       <SearchHospital />
       <Feedbacks />

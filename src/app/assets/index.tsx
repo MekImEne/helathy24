@@ -10,6 +10,11 @@ import aboutUs from "./images/about.jpg";
 import whyUs from "./images/choose.jpg";
 import medecine from "./icons/medecine.svg";
 import check from "./icons/check.svg";
+import background from "./images/blue-background.jpg";
+import appStore from "./images/app-store.svg";
+import googlePlay from "./images/google-play.svg";
+import rating from "./images/rating.svg";
+
 
 export {
     logo,
@@ -23,5 +28,9 @@ export {
     aboutUs,
     whyUs,
     medecine,
-    check
+    check,
+    background,
+    appStore,
+    googlePlay,
+    rating
 };
