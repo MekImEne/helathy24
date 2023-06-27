@@ -1,5 +1,5 @@
 import React from 'react'
-import { InputProps } from '../data/types'
+import { InputProps } from '../../data/types'
 
 export default function Input({ label, id, name, placeholder, value, multiline, onChange, ...props }: InputProps) {
     return (
