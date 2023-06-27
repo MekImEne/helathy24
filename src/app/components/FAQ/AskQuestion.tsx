@@ -1,5 +1,6 @@
 import React from 'react'
-import { doctor, faq } from '../assets'
+import { doctor, faq } from '../../assets'
+import Button from '../UI/Button';
 
 export default function AskQuestion() {
 
@@ -24,11 +25,14 @@ export default function AskQuestion() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
                 <div className='mt-4 flex flex-row justify-between content-center items-center'>
-                    <button
+                    <Button
                         onClick={handleContact}
-                        className="rounded-none bg-WHITE hover:bg-ORANGE-700 text-TEXT_GREY py-2 px-5">
-                        Contact us
-                    </button>
+                        text="Contact us"
+                        bgColor='WHITE'
+                        textColor='TEXT_GREY'
+                        textHovered='WHITE'
+                        bgHovered="BLUE3"
+                    />
                     <img alt="doctor" src={doctor} />
                 </div>
 

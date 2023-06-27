@@ -4,7 +4,7 @@ import { doctors } from '../assets'
 export default function TeamBanner() {
     return (
         <div id="team-banner" className='w-full bg-LIGHT_GRAY pt-10 sm:pt-24'>
-            <div className=''>
+            <div>
                 <div className='py-0 sm:py-4 text-center'>
                     <p className='text-3xl sm:text-4xl mx-10 sm:mx-96 font-extrabold text-BLACK drop-shadow-lg shadow-BLACK'>
                         Our secret to great virtual care is great doctors
