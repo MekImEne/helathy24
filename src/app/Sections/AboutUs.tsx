@@ -1,6 +1,6 @@
 import React from 'react'
-import Title from './Title'
-import LogoContainer from './LogoContainer'
+import Title from '../components/Title'
+import LogoContainer from '../components/LogoContainer'
 import { aboutUs } from '../assets'
 
 export default function AboutUs() {

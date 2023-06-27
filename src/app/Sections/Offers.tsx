@@ -1,5 +1,5 @@
 import React from 'react'
-import OfferCard from './OfferCard'
+import OfferCard from '../components/OfferCard'
 import { offers } from '../data/offers'
 
 export default function Offers() {

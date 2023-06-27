@@ -1,7 +1,7 @@
 import React from 'react'
-import Copyright from './Copyright'
-import DownloadApps from './DownloadApps'
-import FooterSections from './FooterSections'
+import Copyright from '../components/Copyright'
+import DownloadApps from '../components/DownloadApps'
+import FooterSections from '../components/FooterSections'
 
 export default function Footer() {
     return (

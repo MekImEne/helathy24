@@ -1,5 +1,5 @@
 import React from 'react';
-import Features from './Features';
+import Features from '../components/Features';
 
 export default function Banner() {
     const handleStart = () => {

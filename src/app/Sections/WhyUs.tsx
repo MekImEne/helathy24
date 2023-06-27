@@ -1,5 +1,5 @@
 import React from 'react';
-import Title from './Title';
+import Title from '../components/Title';
 import { whyUs, medecine, check } from '../assets';
 import { reasons } from '../data/whyUs';
 

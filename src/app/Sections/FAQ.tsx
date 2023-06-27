@@ -1,7 +1,7 @@
 import React from 'react'
-import Accordion from './Accordion'
+import Accordion from '../components/Accordion'
 import { chat } from '../assets'
-import AskQuestion from './AskQuestion'
+import AskQuestion from '../components/AskQuestion'
 
 export default function FAQ() {
     return (

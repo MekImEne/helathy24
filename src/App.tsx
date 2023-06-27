@@ -16,7 +16,7 @@ import {
   TeamBanner,
   WhyUs,
 
-} from './app/components';
+} from './app/Sections';
 import ScrollToTop from './app/components/ScrollToTop';
 
 function App() {

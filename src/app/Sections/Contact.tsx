@@ -1,7 +1,7 @@
 import React from 'react'
 import { email, location, phone } from '../assets'
-import FormContact from './FormContact'
-import ContactItem from './ContactItem'
+import FormContact from '../components/FormContact'
+import ContactItem from '../components/ContactItem'
 
 export default function Contact() {
     return (

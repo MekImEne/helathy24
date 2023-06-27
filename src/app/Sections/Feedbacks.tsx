@@ -1,6 +1,6 @@
 import React from 'react'
 import { ratingy } from '../assets'
-import Carousel from './Carousel'
+import Carousel from '../components/Carousel'
 
 export default function Feedbacks() {
     return (
