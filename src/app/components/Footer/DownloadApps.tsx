@@ -1,5 +1,5 @@
 import React from 'react'
-import { appStore, googlePlay } from '../assets'
+import { appStore, googlePlay } from '../../assets'
 
 export default function DownloadApps() {
     return (
