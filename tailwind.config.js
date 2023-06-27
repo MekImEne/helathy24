@@ -16,7 +16,8 @@ module.exports = {
       ORANGE: "#F27219",
       GRAY_BACKGROUND: "#F4F7FA",
       DARK_GRAY: "#3A3B3B",
-      BORDER_GRAY:"#AFAFA",
+      BORDER_GRAY: "#AFAFA",
+      LIGHT_GRAY:"#EBEBEB"
     },
     screens: {
       sm: "640px",

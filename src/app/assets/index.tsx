@@ -27,6 +27,7 @@ import previous from "./icons/left-arrow.svg";
 import chat from "./icons/chat.svg";
 import faq from "./images/faq.jpg";
 import doctor from "./icons/doctor.svg";
+import doctors from "./images/doctors.jpg";
 
 
 export {
@@ -58,5 +59,6 @@ export {
     previous,
     chat,
     faq,
-    doctor
+    doctor,
+    doctors
 };

@@ -31,8 +31,8 @@ function App() {
       <SearchHospital />
       <Feedbacks />
       <FAQ />
-      {/*<TeamBanner />
-      <Contact />
+      <TeamBanner />
+      {/*<Contact />
       <Location />
       <Footer /> */}
     </div>
