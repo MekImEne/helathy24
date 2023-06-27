@@ -31,6 +31,7 @@ import doctors from "./images/doctors.jpg";
 import phone from "./icons/phone.svg";
 import email from "./icons/email.svg";
 import location from "./icons/location.svg";
+import goTop from "./icons/swipe-up.svg";
 
 
 export {
@@ -66,5 +67,6 @@ export {
     doctors,
     phone,
     email,
-    location
+    location,
+    goTop
 };

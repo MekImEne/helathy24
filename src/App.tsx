@@ -17,6 +17,7 @@ import {
   WhyUs,
 
 } from './app/components';
+import ScrollToTop from './app/components/ScrollToTop';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       <Contact />
       <Location />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }
