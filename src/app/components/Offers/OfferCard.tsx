@@ -1,5 +1,5 @@
 import React from 'react'
-import { frame } from '../assets'
+import { frame } from '../../assets'
 
 export default function OfferCard({ title, details }: { title: string, details: Array<String> }) {
     return (
