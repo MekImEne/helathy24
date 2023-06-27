@@ -5,8 +5,8 @@ import { reasons } from '../data/whyUs';
 
 export default function WhyUs() {
     return (
-        <div id='why-us' className="my-32 mx-24 flex items-start">
-            <div className="mt-24 flex w-full justify-center px-4 md:w-5/12 lg:mt-0">
+        <div id='why-us' className="mt-24 mb-10 sm:my-32 mx-5 sm:mx-24 flex items-start">
+            <div className="hidden mt-24 md:flex w-full justify-center px-4 md:w-5/12 lg:mt-0">
                 <div className="flex flex-row relative">
                     <div className='absolute -mx-24 -z-10'>
                         <img
@@ -27,7 +27,8 @@ export default function WhyUs() {
             <div className="mx-2 -mt-8 w-full px-4 md:w-9/12">
                 <Title text="Why choosing" />
                 <p className="mb-8 font-normal text-base text-TEXT_GREY">
-                    Meet with an urgent care doctor in minutes, 24/7.Schedule a session with a <span className='underline' >therapist or psychiatrist</span>  this week.
+                    Meet with an urgent care doctor in minutes, 24/7.Schedule a session with a
+                    <span className='underline' >therapist or psychiatrist</span> this week.
                 </p>
 
                 {
