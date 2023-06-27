@@ -3,7 +3,7 @@ import { appStore, googlePlay, rating } from '../assets'
 
 export default function GetApp() {
     return (
-        <div className='w-full flex flex-row space-x-32 mb-10 bg-[url("/src/app/assets/images/blue-background.jpg")] py-10 px-28'>
+        <div className='w-full flex flex-col sm:flex-row sm:space-x-32 mb-10 bg-[url("/src/app/assets/images/blue-background.jpg")] py-3 sm:py-10 px-10 sm:px-28'>
             <div className='md:w-5/12'>
                 <div className='py-4 flex flex-col justify-start'>
                     <h1 className='py-3 text-4xl text-WHITE font-semibold'>Get the app</h1>
