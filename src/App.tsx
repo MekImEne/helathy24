@@ -26,8 +26,8 @@ function App() {
       <AboutUs />
       <WhyUs />
       <GetApp />
-      {/*<FindDoctor />
-      <Offers />
+      <FindDoctor />
+      {/* <Offers />
       <SearchHospital />
       <Feedbacks />
       <FAQ />

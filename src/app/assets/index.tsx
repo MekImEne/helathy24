@@ -14,6 +14,7 @@ import background from "./images/blue-background.jpg";
 import appStore from "./images/app-store.svg";
 import googlePlay from "./images/google-play.svg";
 import rating from "./images/rating.svg";
+import searchDoctor from "./images/find-doctor.jpg";
 
 
 export {
@@ -32,5 +33,6 @@ export {
     background,
     appStore,
     googlePlay,
-    rating
+    rating,
+    searchDoctor
 };
