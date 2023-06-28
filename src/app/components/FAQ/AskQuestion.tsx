@@ -5,7 +5,7 @@ import Button from '../UI/Button';
 export default function AskQuestion() {
 
     const handleContact = () => {
-        window.location.href = "contact-us"
+        window.location.href = "/"
     };
 
     return (

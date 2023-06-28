@@ -5,7 +5,7 @@ import Button from '../components/UI/Button';
 export default function FindDoctor() {
 
     const handleStart = () => {
-        window.location.href = '/get-started'
+        window.location.href = '/'
     };
 
     return (

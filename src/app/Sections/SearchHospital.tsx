@@ -5,7 +5,7 @@ import Button from '../components/UI/Button';
 export default function SearchHospital() {
 
     const handleSearch = () => {
-        window.location.href = "/search-hospital"
+        window.location.href = "/"
     };
 
     return (

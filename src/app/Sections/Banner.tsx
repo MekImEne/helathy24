@@ -7,7 +7,7 @@ import Features from '../components/Banner/Features';
 export default function Banner() {
 
     const handleStart = () => {
-        window.location.href = '/get-started'
+        window.location.href = '/'
     };
 
     return (
