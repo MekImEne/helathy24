@@ -14,7 +14,6 @@ export default function Banner() {
         <div id='home'>
             <div className="relative flex h-screen content-center items-center pt-16 pb-32 -z-10">
                 <Background />
-
                 <div className="max-w-7xl px-6 lg:px-8 z-0 py-3">
                     <MainTitle />
                     <div className="mt-10 sm:mt-20 max-w-2xl lg:mx-0 lg:max-w-none">

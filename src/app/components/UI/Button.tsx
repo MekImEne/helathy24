@@ -24,7 +24,7 @@ export default function Button({
                 text-${textColor}
                 hover:text-${textHovered}
                 hover:bg-${bgHovered}
-                hover:opacity-75  
+                hover:opacity-50 
                 ${outlined ? `outline outline-1 outline-${borderColor}` : 'outline-none'} 
                 ${rounded ? 'rounded' : 'rounded-none'}`
             }
