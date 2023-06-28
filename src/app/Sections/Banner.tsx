@@ -12,7 +12,7 @@ export default function Banner() {
 
     return (
         <div id='home'>
-            <div className="relative flex h-screen content-center items-center pt-16 pb-32 ">
+            <div className="relative flex h-screen content-center items-center pt-16 pb-32 -z-10">
                 <Background />
                 <div className="max-w-7xl px-6 lg:px-8 z-0 py-3">
                     <MainTitle />
